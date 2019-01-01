@@ -1,0 +1,122 @@
+#xiaotuisong{
+	font-family: 微软雅黑;
+	font-size: 28px;
+}
+
+#dialog{
+/*	margin-top: 40px;
+	
+	
+	background-color: white;*/
+	position:relative;
+	
+	background-color:#fff;
+	width: 100%;
+	height: 350px;
+	z-index: 1998;
+/*	opacity:0.5;*/
+}
+#editor-trigger {
+      height: 300px;
+      max-height: 500px;
+    }
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+    #zidingyi{
+      width: 90px;
+      height: 26px;
+    }
+    #xiaotuisong{
+      height: 70px;
+    }
+    .si{
+      font-family: 微软雅黑;
+      font-size: 16px;
+      height: 20px;
+      width: 750px;
+      margin-top: 20px;
+      padding-left:10px;
+    }
+    #imgshow{
+      height: 320px;
+      width: 100%;
+      
+    }
+    #show{
+      height: 320px;
+      width: 100%;
+      position: relative;
+      /*bottom: 10px;*/ 
+      margin-top: -27px;
+      /*    margin-bottom: 10px;*/
+    }
+    #prompt{
+      position: relative;
+      bottom: 27px;
+      left: 80px;
+      z-index: 1;
+    }
+    #mapall{
+      margin-top:10px;
+      border: 1px solid;
+      border-image: -webkit-linear-gradient( #76a68d,#cd96d6) 30 30;
+      border-image: -moz-linear-gradient( #76a68d, #cd96d6) 30 30;
+      border-image: linear-gradient( #76a68d, #cd96d6) 30 30;
+    }
+    #detail{
+      margin-top:10px;
+      padding-bottom:10px;
+      border: 1px solid;
+      border-image: -webkit-linear-gradient( #cd96d6, #76a68d) 30 30;
+      border-image: -moz-linear-gradient( #cd96d6, #76a68d) 30 30;
+      border-image: linear-gradient( #cd96d6, #76a68d) 30 30;
+    }
+    #bg2{
+      position: absolute;
+      bottom: -2px;
+      right: 3px;
+      z-index: 1551;
+    }
+    .select2{
+      width: 90px;
+    }
+    #push{
+      position: absolute;
+      bottom: 20px;
+      right: 10px;
+      z-index: 1552;
+     /* margin-left: 60px;*/
+      background-color: #a2bfa0;
+    }
+
+/* Scroll top button */
+#toTop {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 9999;
+  width: 46px;
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  cursor: pointer;
+}
+#toTop:after {
+  content: "^";
+  font-family: "fontello";
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+  transform: translateY(-45%);
+}
+#toTop:hover {
+  background-color: #a2bfa0;
+}

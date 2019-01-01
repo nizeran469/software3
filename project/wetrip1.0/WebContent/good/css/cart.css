@@ -1,0 +1,18 @@
+/*-------------------------- Theme Footer ----------------------*/
+.theme-footer {
+  height: 168px;
+  text-align: center;
+  background:#76a68d;
+  padding: 25px 0 1px 0;
+  margin-top: 17.35%;/*196px;*/
+ /* position: fixed;
+  bottom: 20px;*/
+}
+.theme-footer .footer-text {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+}
+.theme-footer .copyright {margin-top: 10px;font-family: 微软雅黑;font-size: 13px;color:#313131;}
+.container {height: 100%;}

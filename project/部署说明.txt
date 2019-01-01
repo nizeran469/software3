@@ -1,0 +1,11 @@
+
+1.将部署文件-->图片库 中的 photo文件夹和avatar文件夹放到本地eclipse工作区路径下的.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\wetrip1.0\image\下
+
+例如
+ F:\eclipse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\wetrip1.0\image\photo\……
+F:\eclipse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\wetrip1.0\image\avatar
+
+
+2.数据库名：wetrip   运行部署文件-->数据库sql文件
+
+由于测试数据有限，建议以石家庄为登录ip进行试看
