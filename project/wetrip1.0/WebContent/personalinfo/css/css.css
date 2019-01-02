@@ -1,0 +1,325 @@
+@charset "utf-8";
+#css {
+	text-decoration: none;
+	
+}
+
+#leftContent{
+float:left;
+margin-left: 275px;
+}
+#rightContent{
+float:left;
+margin-top: 50px;
+margin-left: 25px;
+}
+.sidebar-box {
+	margin-left: 50px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 40px;	
+	padding: 30px 40px 40px 40px;
+	margin-bottom: 100px;
+	width: 350px;
+	height:540px;
+	border:1px;
+	border-color: #cccccc;
+	background-color:#fff; 
+	/*box-shadow: 0px 11px 9px 0px rgba(0, 0, 0, 0.02);*/
+}
+.sidebar-title {
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0.8px;
+  /*padding-left: 20px;*/
+  margin-bottom: 30px;
+  
+}
+.sidebar-title:first-letter {font-size: 16px;}
+ .sidebar-title:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left:0;
+  bottom: 5px;
+}
+.about-me p {
+  font-size: 13px;
+  line-height: 24px;
+padding-top: 25px;
+}
+.about-me h5{
+text-align:center;
+color: #333;
+margin-top: 20px;
+}
+.about-me h6{
+text-align:center;
+color: #808080;
+
+}
+.about-me h5:first-letter {color:#ff6666;}
+.about-me p:first-letter {font-size: 20px;color:#ff6666;}
+
+
+
+.tab1{
+	width: 691px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.menu{
+	height: 42px;
+	font-size: 14px;
+	width: 691px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #ccc;
+}
+.menu li{
+	float: left;
+	width: 230px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	cursor: auto;
+	color: #fff;
+	font-weight:bold;
+	overflow: hidden;
+
+	/*background-image: url(images/bg.png);修改选项卡底纹****************************/
+	background-color: #91c1a8;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	cursor:pointer
+}
+
+#User{
+/*	background-color: #fff;*/
+	z-index: 2552;
+	display: none;
+	width:100px;
+	height: 65px;
+	
+	right: 0%;
+	top: 93px;
+	text-align: justify;
+	font-size: 16px;
+}
+#User a{
+	margin-top: -25px;
+	height:30px;
+	background-color: #fff;
+	border: 1px solid  #aaa;
+	padding-left: 7px;
+	padding-top: 2px;
+	opacity: 0.5;
+}
+
+
+#tab1 .menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+.menu li.off{background:#fff;color:#336699;font-weight:bold; border-bottom:none;}
+#content #tab1 .menudiv #con_one_1 #1 table tr td #u112_input {
+	height: 50px;
+}
+#test1 {
+	height: 100px;
+	margin-top: 15px;
+	width: 300px;
+}
+#bc01 {
+	height: 29px;
+	width: 52px;
+	/*background-image: url(img/u113.png);*/	
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 200px;
+}
+#bc02 {
+	height: 29px;
+	width: 52px;
+	/*background-image: url(img/u113.png);*/	
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 220px;
+}
+.button{
+	border-radius: 4px;
+	border:0px;
+	font-family: "Raleway"!important;
+	background-color:#91c1a8;
+	color:#fff;
+}
+.button:hover {
+    background: #ff6666;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menudiv{
+	background: #fefefe;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #cccccc;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	height: 500px;
+	width:691px;
+}
+
+td {
+	margin-top: 11px;
+	padding-top: 11px;
+}
+
+#tx01 {
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#wzms {
+	height: 157px;
+	width: 278px;
+	float: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+#content #tab1 .menudiv #con_one_3 #txgg #wzms span {
+	font-size: 14px;
+	color: #F00;
+}
+#tpsc {
+	background-image: url(img/u133.png);
+	height: 33px;
+	width: 81px;
+	margin-top: 40px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #91c1a8;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color:#fff;
+    text-decoration: none;
+    text-indent: 0;
+    
+    margin-bottom:-13px;
+    margin-top: 30px;
+    width:90px;
+    height: 40px;
+}
+.file input { 
+	 position: absolute;
+    font-size: 40px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #ff6666;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+}
+#txgg {
+	float:left;
+	height: 160px;
+	width: 550px;
+	margin-top: 70px;
+	margin-left: 50px;
+}
+.menudiv div{padding:15px;line-height:28px;}
+#content {
+	width: 1020px;
+}
+#errortip{
+	width:150px;
+	height:50px;
+	padding-left:0px;
+}
+#upbtn{
+	margin-top:10px;
+}
+/*-------------------------- Theme Footer ----------------------*/
+.theme-footer {
+	font-family: 微软雅黑;
+  text-align: center;
+  background:#76a68d;
+  padding: 25px 0 1px 0;
+ 
+}
+.theme-footer .footer-text {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+}
+.theme-footer .copyright {margin-top: 10px;font-size: 13px;color:#313131;}
+.container {height: 100%;}
+
+/*------------------------ 上传文件的界面的样式 ---------------------*/
+#userhead_body{
+	float:left;
+	padding: 0px;
+	margin: 0px;
+}
+.userhead_container{
+     width:400px;
+     height:300px;
+     border:1px dashed #000;
+     float: left;
+     padding:0px;
+ }
+.userhead_preview{
+      width: 200px;
+      height: 200px;
+      float: left;
+      border:1px dashed #000;
+      margin-left: 20px;
+     
+}
+.button{
+    width:90px;
+    height: 40px;
+    margin-left: 20px;
+ }
+#upload_userhead_view{
+	display: none;
+	
+}
+#default_userhead_view{
+	display:block;
+}
